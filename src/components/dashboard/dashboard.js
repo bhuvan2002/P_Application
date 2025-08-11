@@ -4,9 +4,9 @@ import React, { useState, useEffect } from 'react';
 import { Grid, Box, Typography, Paper } from '@mui/material';
 import { LocalizationProvider, DateCalendar } from '@mui/x-date-pickers';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
-import MonthlySpendChart from '../components/charts/monthlySpendChart';
-import CategoryPieChart from '../components/charts/categoryPieChart';
-import TodaySpend from '../components/charts/todaySpend';
+import MonthlySpendChart from '../charts/monthlySpendChart';
+import CategoryPieChart from '../charts/categoryPieChart';
+import TodaySpend from '../charts/todaySpend';
 import './dashboard.css';
 
 const Dashboard = () => {

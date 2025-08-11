@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Login from './components/login'; 
 import Layout from './components/layout/layout'; 
-import Dashboard from './components/dashboard';
-import DailyTracker from './components/dailyTracker';
-import Trading from './components/trading';
+import Dashboard from './components/dashboard/dashboard';
+import DailyTracker from './components/daily-tracker/dailyTracker';
+import Trading from './components/trading/trading';
 // import ParentDashboard from './components/ParentDashboard';
 
 function App() {
