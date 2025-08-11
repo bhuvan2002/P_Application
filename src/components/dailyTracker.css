@@ -1,0 +1,95 @@
+.daily-tracker-container {
+    max-width: 1200px;
+    padding: 20px;
+    max-height: 100%;
+  }
+  
+  .daily-tracker-paper {
+    padding: 30px;
+  }
+  
+  .tracker-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .tabs-container {
+    margin-bottom: 30px;
+  }
+  
+  .add-button-container {
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    margin-bottom: 40px;
+  }
+  
+  .summary-container {
+    margin-bottom: 40px;
+  }
+  
+  .recent-entries-container {
+    margin-bottom: 20px;
+  }
+  
+  .calendar-container {
+    margin-bottom: 30px;
+  }
+  
+  /* Ensure uniform height and spacing for TextFields */
+  .form-textfield .MuiOutlinedInput-root {
+    height: 40px;
+  }
+  
+  /* Style for the submit (Add) button to maintain uniform height */
+  .submit-button {
+    height: 40px;
+  }
+  
+  /* Summary text styling for better alignment */
+  .summary-text {
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+  
+  /* Improve ListItem spacing */
+  .recent-entries-container .MuiListItem-root {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 600px) {
+    .daily-tracker-container {
+      padding: 10px;
+    }
+  
+    .daily-tracker-paper {
+      padding: 20px;
+    }
+  
+    /* Adjust TextField heights on smaller screens if necessary */
+    .form-textfield .MuiOutlinedInput-root {
+      height: 35px;
+    }
+  
+    .submit-button {
+      height: 35px;
+    }
+  
+    .summary-text {
+      height: 35px;
+      font-size: 14px;
+    }
+  
+    /* Adjust ListItem font size for better readability on small screens */
+    .recent-entries-container .MuiListItemText-primary {
+      font-size: 14px;
+    }
+  
+    .recent-entries-container .MuiListItemText-secondary {
+      font-size: 12px;
+    }
+  }  

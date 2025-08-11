@@ -1,0 +1,78 @@
+/* src/components/dashboard.css */
+
+/* Container */
+.dashboard-container {
+    padding: 24px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  /* Header Section */
+  .dashboard-header {
+    padding: 24px;
+    margin-bottom: 32px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-item {
+    text-align: center;
+  }
+  
+  .header-title {
+    font-size: 1rem;
+    color: #555555;
+  }
+  
+  .header-amount {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .header-amount.earned {
+    color: #4caf50; /* Green */
+  }
+  
+  .header-amount.spent {
+    color: #f44336; /* Red */
+  }
+  
+  .header-month {
+    color: #333333;
+  }
+  
+  /* Calendar Section */
+  .dashboard-calendar {
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Charts Section */
+  .dashboard-charts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  
+  .chart-card {
+    flex: 1 1 45%;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .full-width-chart {
+    flex: 1 1 100%;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 960px) {
+    .chart-card {
+      flex: 1 1 100%;
+    }
+  }
+  
